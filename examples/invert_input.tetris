@@ -1,0 +1,14 @@
+Section1
+
+rotate = engine.rotate_AntiCW
+
+Section2
+
+{ move_left  [call _move_right ] }
+{ move_right [ call _move_left ] }
+{ speed_up   [ call _slow_down ] }
+{ slow_down  [ call _speed_up  ] }
+
+Section3
+
+[ play ]

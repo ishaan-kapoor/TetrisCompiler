@@ -1,0 +1,12 @@
+Section1
+
+allowed_rotations = 2
+
+Section2
+
+# Could have added >= in scanner but this way, the capabilities of the compiler are more evident
+{ rotate if ((engine.rotations > engine.allowed_rotations) or (engine.rotations == engine.allowed_rotations)) then return [ call Print with value = -1.1 ] end engine.rotations = engine.rotations + 1 [ call rotate_CW ] }
+
+Section3
+
+[ play ]

@@ -1,0 +1,11 @@
+x2021A7PS2091G
+
+lex.yy.c
+grammar.tab.h
+grammar.tab.c
+
+output.py
+__pycache__
+
+*Zone.Identifier 
+.venv

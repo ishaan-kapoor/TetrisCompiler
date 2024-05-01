@@ -1,0 +1,18 @@
+Section1
+
+Section2
+
+{ move_left  [ call Print with value = 3 ] [ call _move_left  ] }
+{ move_right [ call Print with value = 4 ] [ call _move_right ] }
+
+{ rotate [ call Print with value = 5 ] [ call rotate_CW ] }
+
+{ speed_up  [ call Print with value = 6 ] [ call _speed_up  ] }
+{ slow_down [ call Print with value = 7 ] [ call _slow_down ] }
+
+{ pre_play  [ call Print with value = 1 ] }
+{ post_play [ call Print with value = 2 ] }
+
+Section3
+
+[ play ]

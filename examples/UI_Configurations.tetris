@@ -1,0 +1,14 @@
+Section1
+
+initial_move_down_duration = 1000
+width = 20
+height = 40
+fg_color = 3
+bg_color = 2
+
+Section2
+
+Section3
+
+# Overrides the values specified in Section 1
+[ play with width = 10 height = 10 ]
